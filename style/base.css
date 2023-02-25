@@ -1,0 +1,39 @@
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: rgb(255, 255, 255);
+    }
+
+    25% {
+        background-color: rgb(174, 174, 174);
+    }
+
+    50% {
+        background-color: rgb(127, 127, 127);
+    }
+
+    75% {
+        background-color: rgb(75, 75, 75);
+    }
+
+    100% {
+        background-color: rgb(43, 43, 43);
+        color: #FFF;
+    }
+}
+
+.dark-mode {
+    animation: changeBackgroundColor 1s forwards;            
+}
+
+.icon {
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 2em;
+    margin-top: -2.5em;
+}
+
+.col-50 {
+    width: 50%;
+}
