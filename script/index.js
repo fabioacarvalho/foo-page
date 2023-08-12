@@ -10,6 +10,7 @@ var set_theme = () => {
 
     var github = document.querySelector("#github").setAttribute("style", "color: #FFF;")
     var linkedid = document.querySelector("#linkedid").setAttribute("style", "color: #FFF;")
+    var icon_back = document.querySelector("#icon_back").setAttribute("style", "color: #FFF;")
 
     this.setAttribute("style", "display: none;")
 }
